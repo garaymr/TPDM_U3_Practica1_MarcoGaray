@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Marcas de autos"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:id="@+id/marca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de la marca"
+        />
+    <EditText
+        android:id="@+id/año"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Año de fundación"
+        />
+    <EditText
+        android:id="@+id/fundador"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Fundador"
+        />
+    <EditText
+        android:id="@+id/oficina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Oficina central"
+        />
+    <Button
+        android:id="@+id/insertar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar"
+        />
+    <Button
+        android:id="@+id/eliminar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar"
+        />
+    <Button
+        android:id="@+id/consultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Consultar"
+        />
+    <Button
+        android:id="@+id/actualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Actualizar"
+        />
+    <Button
+        android:id="@+id/insertarAuto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insertar auto"
+        />
+    <ListView
+        android:id="@+id/listamarcas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</LinearLayout>
